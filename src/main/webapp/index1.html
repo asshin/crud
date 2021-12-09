@@ -1,0 +1,111 @@
+<!--<!doctype html>-->
+<!--<html lang="zh-CN">-->
+<!--<head>-->
+<!--    <meta charset="utf-8">-->
+
+<!--    &lt;!&ndash; 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ &ndash;&gt;-->
+<!--    <title>Bootstrap 101 Template</title>-->
+<!--    &lt;!&ndash; jqury&ndash;&gt;-->
+<!--    <script src="static/js/jquery-1.12.4.min.js"></script>-->
+<!--    &lt;!&ndash; Bootstrap &ndash;&gt;-->
+
+<!--    <link  href="static/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet">-->
+<!--    <script src="static/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>-->
+
+<!--    &lt;!&ndash; HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 &ndash;&gt;-->
+<!--    &lt;!&ndash; 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 &ndash;&gt;-->
+
+<!--</head>-->
+<!--<body>-->
+<!--<h1>你好，世界！</h1>-->
+<!--<button type="button" class="btn btn-primary">Primary</button>-->
+<!--<button type="button" class="btn btn-success">（成功）Success</button>-->
+<!--<button type="button" class="btn btn-primary btn-lg">（大按钮）Large button</button>-->
+<!--</body>-->
+<!--</html>-->
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+    <div class="col-md-12"><h1>CRUD</h1></div>
+</div>
+<div class="row">
+    <div class="col-md-8 col-lg-offset-8">
+        <button type="button" class="btn btn-primary btn-lg">新增</button>
+        <button type="button" class="btn btn-danger btn-lg">删除</button>
+    </div>
+</div>
+<div class="row">
+     <table class="table table-striped">
+         <tr>
+             <th>id</th>
+             <th>lastName</th>
+             <th>email</th>
+             <th>gender</th>
+             <th>dept</th>
+             <th>操作</th>
+         </tr>
+         <tr>
+             <td>id</td>
+             <td>lastName</td>
+             <td>email</td>
+             <td>gender</td>
+             <td>dept</td>
+             <td>   <button type="button" class="btn btn-primary btn-sm glyphicon glyphicon-pencil">修改</button>
+                 <button type="button" class="btn btn-danger btn-sm glyphicon glyphicon-trash">删除</button></td>
+         </tr>
+
+     </table>
+</div>
+<div class="row">
+    <div class="col-md-6">记录数</div>
+    <div class="col-md-6">
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li><a href="#">首页</a></li>
+
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">尾页</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+</div>
+
+</div>
+</body>
+</html>
